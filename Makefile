@@ -1,2 +1,2 @@
-brute: brute.c	Makefile
-	gcc -O3 -Wall -std=c99 blind.c -o $@ -lssl -lcrypto
+brute: 
+	gcc -O3 -Wall -std=c99 brute.c -o $@ -lssl -lcrypto
